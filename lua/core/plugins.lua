@@ -281,6 +281,11 @@ local astro_plugins = {
     end,
   },
 
+  ["Pocco81/AutoSave.nvim"] = {
+    config = function ()
+      require("configs.AutoSave").config()
+    end,
+  },
   -- Smooth scrolling
   ["declancm/cinnamon.nvim"] = {
     event = { "BufRead", "BufNewFile" },
