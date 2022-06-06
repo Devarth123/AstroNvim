@@ -1,7 +1,7 @@
 local config = {
 
   -- Set colorscheme
-  colorscheme = "default_theme",
+  colorscheme = "nord",
 
   -- set vim options here (vim.<first_key>.<second_key> =  value)
   options = {
