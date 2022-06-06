@@ -1,5 +1,5 @@
 return {
-  { "andweeb/presence.nvim", "Pocco81/AutoSave.nvim" },
+  { "Pocco81/AutoSave.nvim" , "rust-lang/rust.vim", "glepnir/dashboard-nvim", "shaunsingh/nord.nvim"},
   {
     "ray-x/lsp_signature.nvim",
     event = "BufRead",

@@ -5,7 +5,7 @@ local config = {
 
   -- set vim options here (vim.<first_key>.<second_key> =  value)
   options = {
-    opt = {
+     opt = {
       relativenumber = true, -- sets vim.opt.relativenumber
     },
     g = {
@@ -62,7 +62,7 @@ local config = {
       -- ["goolord/alpha-nvim"] = { disable = true },
 
       -- You can also add new plugins here as well:
-      { "andweeb/presence.nvim", "Pocco81/AutoSave.nvim"},
+      { "andweeb/presence.nvim", "Pocco81/AutoSave.nvim", "rust-lang/rust.vim",  "glepnir/dashboard-nvim", "shaunsingh/nord.nvim"},
       {
         "ray-x/lsp_signature.nvim",
         event = "BufRead",
